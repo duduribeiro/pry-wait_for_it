@@ -1,0 +1,50 @@
+PATH
+  remote: .
+  specs:
+    pry-wait_for_it (1.0.0)
+      concurrent-ruby
+      pry
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ast (2.4.2)
+    coderay (1.1.3)
+    concurrent-ruby (1.1.8)
+    method_source (1.0.0)
+    minitest (5.14.4)
+    parallel (1.20.1)
+    parser (3.0.0.0)
+      ast (~> 2.4.1)
+    pry (0.14.0)
+      coderay (~> 1.1)
+      method_source (~> 1.0)
+    rainbow (3.0.0)
+    rake (13.0.3)
+    regexp_parser (2.1.1)
+    rexml (3.2.4)
+    rubocop (0.93.1)
+      parallel (~> 1.10)
+      parser (>= 2.7.1.5)
+      rainbow (>= 2.2.2, < 4.0)
+      regexp_parser (>= 1.8)
+      rexml
+      rubocop-ast (>= 0.6.0)
+      ruby-progressbar (~> 1.7)
+      unicode-display_width (>= 1.4.0, < 2.0)
+    rubocop-ast (1.4.1)
+      parser (>= 2.7.1.5)
+    ruby-progressbar (1.11.0)
+    unicode-display_width (1.7.0)
+
+PLATFORMS
+  x86_64-darwin-20
+
+DEPENDENCIES
+  minitest (~> 5.0)
+  pry-wait_for_it!
+  rake (~> 13.0)
+  rubocop (~> 0.80)
+
+BUNDLED WITH
+   2.2.3
