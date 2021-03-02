@@ -5,7 +5,7 @@ require "pry"
 
 class Object
   def pry_wait_for_it
-    pry if PryWaitForIt.state.true?
+    Pry.start(self, {}) if PryWaitForIt.state.true?
   end
 
   def pry_wait_activate
